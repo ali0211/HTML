@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+}
+
+h1 {
+    text-shadow: -3px 5px 5px #999;
+    text-align: center;
+}
+
+
+
+h2::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+    background: #000 ;
+    color: #fff;
+    padding: 4px;
+}
+
+ol {
+    list-style-type: square;
+    list-style-position: inside;
+    border: 1px solid #987;
+    /*list-style-image: url(../img/fon.png);*/
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p.test {
+    pad: 10px;
+    border: 5px dotted #f94;
+    margin-bottom: 20px;
+
+}
+
+p.test2 {
+    border: 1px solid #f94;
+    padding: 10px 15px 25px 2px;
+    margin: 20px 3px;
+    margin-top: 20px;
+    background: red;
+    border-radius: 16px;
+}
+
+li {
+    display: inline;
+}

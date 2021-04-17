@@ -1,0 +1,42 @@
+a:hover {
+    color: red;
+}
+
+a:active {
+    font-size: 30px;
+    color: red;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: gray;
+}
+
+p::first-letter {
+    font-size: 30px;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+input:focus {
+    background: rgb(65, 36, 36);
+    border-color: blue;
+}
+
+.test::before {
+    content: "Алихан"
+}
+
+.test::after {
+    content:"алихан"
+}
+
+p::selection {
+    color: red;
+    background: blue;
+}

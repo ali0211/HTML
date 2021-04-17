@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+p {
+    background: yellow;
+    font-size: 20px;
+}
+
+.one {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    background: black;
+    color: blanchedalmond;
+    font-size: 30px;
+}

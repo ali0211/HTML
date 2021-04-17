@@ -1,0 +1,16 @@
+img[title="картинка"] {
+    width: 250px;
+    
+}
+
+img[title="Пейзаш"] {
+    width: 300px;
+}
+
+img[title="небо"] {
+    width: 300px;
+}
+
+a[href="https://yandex.ua"] {
+    color: red; 
+}
